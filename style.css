@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  list-style: none;
+} 
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  background-color: #000;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  margin-bottom: 10rem;
+}
+
+.navbar_content{
+  margin: 0 auto;
+  padding: 25px 20px;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  color: #f0f4f9;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  outline: #f0f4f9;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 15%;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid blue;
+  background-color: blue;
+  cursor: pointer;
+  color: white;
+}
+
+#respostas{
+  list-style: none;
+
+}
+
+#respostas li .pergunta{
+  background-color: #f0f4f9;
+  width: 70%;
+  padding: 20px;
+  border-radius: 10px 0 10px 0;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+ul li p{
+  transition: all 1s ease;
+}
+
+.resposta svg{
+  width: 6rem;
+  height: 4rem;
+  margin-right: 2rem;
+}
+
+.resposta{
+  width: 70%;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+#respostas{
+  margin-left: 30%;
+  margin-bottom: 20vh;
+}
+
+.area-pergunta{
+  width: 100%;
+  padding: 20px;
+  background-color: #ffff;
+}
+
+.area_content{
+  text-align: center;
+  justify-content: center;
+}
+
+.main{
+  margin-top: 10rem;
+}
